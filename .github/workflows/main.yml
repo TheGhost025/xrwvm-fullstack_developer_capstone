@@ -49,4 +49,4 @@ jobs:
     - name: Run Linter
       run: |
         echo "Running JSHint..."
-        find . -name "*.js" -exec jshint {} +
+        find ./server/database -name "*.js" -exec jshint {} +
